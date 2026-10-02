@@ -1,0 +1,34 @@
+name: electro_hisab
+description: Offline-first Electrical & Home Appliances Shop POS, Inventory & Khata Ledger Android App.
+version: 1.0.0+1
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Offline SQLite Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  path_provider: ^2.1.1
+  # Local Encryption & Security
+  encrypt: ^5.0.3
+  crypto: ^3.0.3
+  # UI, Thermal Receipts & Printing
+  intl: ^0.18.1
+  pdf: ^3.10.4
+  printing: ^5.11.0
+  share_plus: ^7.1.0
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
